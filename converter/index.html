@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Bijoy - Unicode Converter | বিজয় - ইউনিকোড কনভার্টার | fam786.com</title>
+<meta name="author" content="fm278.com">
+
+<link rel="icon" type="image/png" href="/home/img/favicon.png">
+<meta name="robots" content="index, follow">
+<meta name="Title" content="Bangla Unicode Converter | fm786.com">
+<meta name="description" content="Bijoy to Unicode and Unicode to Bijoy converter tool. This tool will make your Bengali language readable anywhere in web page very easily">
+<meta name="keywords" content="Bangla converter, bijoy to Unicode, unicode to bijoy, unicode converter, bijoy converter, bangla font converter,বিজয়,ইউনিকোড, কনভার্টার, barta24 converter ">
+<meta property="og:title" content="Bangla Unicode Converter | fm286.com" />
+<meta property="og:site_name" content="fm286.com" />
+<meta property="og:description" content="Bijoy to Unicode and Unicode to Bijoy converter tool. This tool will make your Bengali language readable anywhere in web page very easily" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://fm286.com/tools/converter/" />
+<meta property="og:image" content="https://fm286.com/social_thumb.png" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="315" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@barta24bd" />
+<meta name="twitter:creator" content="@barta24bd" />
+<meta name="twitter:url" content="https://barta24.com/tools/converter/" />
+<meta name="twitter:title" content="Bangla Unicode Converter | fm786.com" />
+<meta name="twitter:description" content="Bijoy to Unicode and Unicode to Bijoy converter tool. This tool will make your Bengali language readable anywhere in web page very easily" />
+<meta name="twitter:image" content="https://barta24.com/social_thumb.png" />
+<link rel="canonical" href="https://barta24.com/tools/converter/">
+<link href="https://barta24.com/tools/converter/css/center.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://barta24.com/tools/converter/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://barta24.com/tools/converter/css/font-awesome.css">
+<style type="text/css">
+        .div_clear {
+            clear: both;
+            border: solid 0px #0000CC;
+        }
+        .row.header_area {
+            flex-direction: column;
+            padding: 1em;
+        }
+        .row.header_area h1 {
+            font-size: 1.4em;
+            color: black;
+        }
+        .container{
+            max-width: 1200px;
+        }
+        .sidebar{
+            background-color: #d8d1d1;
+        }
+        .converter .buttons {
+            text-align: center;
+            margin: 1em 0;
+        }
+        .convert_button_left span {
+            color: #F44336;
+        }
+        .share_button {
+            text-align: center;
+        }
+        .converter .buttons button{
+            border: none;
+            color: #ffffff;
+            padding: 0.5em 1em;
+            font-weight: bold;
+            border-radius: 5px;
+        }        
+        button.bijoy_button {
+            background-color: #9C27B0;
+        }
+        button.unicode_button {
+            background-color: #00BCD4;
+        }
+        button.reset_button {
+            background-color: #ed1c25;
+        }
+        button.reset_button i {
+            color: white;
+        }  
+    </style>
+<script src="https://barta24.com/tools/converter/js/jquery-3.3.1.min.js"></script>
+<script src="https://barta24.com/tools/converter/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://barta24.com/tools/converter/js/bijoy2uni.js"></script>
+<script type="text/javascript" src="https://barta24.com/tools/converter/js/uni2bijoy.js"></script>
+<script type="text/javascript" src="https://barta24.com/tools/converter/js/common.js"></script>
+<script type="text/javascript" src="https://barta24.com/tools/converter/js/layout.js"></script>
+<script type="text/javascript" src="https://barta24.com/tools/converter/js/count.js"></script>
+<script type="text/javascript" src="https://barta24.com/tools/converter/js/js1.js"></script>
+<script type="text/javascript" src="https://barta24.com/tools/converter/js/js.js"></script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c1b36eb2450939c"></script>
+</head>
+<body>
+<section class="header">
+<div class="container">
+<div class="row header_area">
+<div class="site-logo site-logo--alt">
+<a href="https://fm786.com"><img src="http://beta.fm786.com/public/uploads/images/logo.png" alt="logo"></a>
+</div>
+<div class="title">
+<h1>বিজয় - ইউনিকোড কনভার্টার | FM786.COM </h1>
+</div>
+</div>
+</div>
+</section>
+<section class="converter">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="unicode_section">
+<textarea class="unicode_textarea" id="EDT" name="textarea" autofocus="autofocus" value="" placeholder="ইউনিকোড কি-বোর্ডের লেখা এখানে পেস্ট করুন"></textarea>
+</div>
+<div class="convert_button_left buttons">
+<button class="bijoy_button" onclick="ConvertToTextArea(&#39;CONVERTEDT&#39;);" type="submit" name="ConvertToAsciiButton"><span><i class="fa fa-arrow-down"></i> </span> Unicode to Bijoy</button>
+<button class="unicode_button" onclick="ConvertFromTextArea(&#39;CONVERTEDT&#39;);" type="submit" name="ConvertButton"><span><i class="fa fa-arrow-up"></i></span> Bijoy to Unicode</button>
+<button class="reset_button" type="submit" onclick="ClearInput();"><span><i class="fa fa-refresh"></i></span> Clear</button>
+</div>
+<div>
+<input readonly="" type="hidden" name="CharsTyped" size="2" style="font-weight:bold; border: 0px solid #2D69AE; color:#808080; text-align:left;" value="0">
+<input readonly="" type="hidden" name="WordsTyped" size="3" style="font-weight:bold; border: 1px solid #2D69AE; color:#808080; text-align:right;" value="0">
+<input readonly="" type="hidden" name="CharsLeft" size="8" value="100000">
+<input readonly="" type="hidden" name="WordsLeft" size="8" value="100000">
+</div>
+<div class="bijoy_section">
+<textarea class="bijoy_textarea" id="CONVERTEDT" autofocus="autofocus" value="" placeholder="বিজয় কি-বোর্ডের লেখা এখানে পেস্ট করুন"></textarea>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<script type="text/javascript">
+        function ClearInput()
+        {
+            document.getElementById("EDT").value='';
+            document.getElementById("CONVERTEDT").value='';
+            document.getElementById("EDT").focus();
+        }
+    </script>
+</body>
+</html>

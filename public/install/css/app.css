@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+body {
+  background: rgba(50, 115, 220, 0.3);
+  background-size: cover;
+}
+
+.logo{
+	max-width: 120px;
+	border-radius: 15px;
+    margin-bottom: 10px;
+	margin-top:-20px;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    padding: 10px;
+}
+
+.custom-control-label {
+    margin-bottom: 0;
+    margin-top: 1px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none; 
+}
+ 
+.card-signin {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-header {
+  font-weight: 300;
+  font-size: 1.5rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #FFFFFF;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 6px;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 12px 20px;
+  transition: all 0.2s;
+}
+
+.form-control {
+  border-radius: 6px;
+  padding: 5px 20px;
+}
+
+.custom-control-label:before {
+    background: #CCCCCC;
+	border-radius: 50% !important;
+}
+
+.custom-control {
+   display: inline-block;
+}
+

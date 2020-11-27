@@ -1,0 +1,2 @@
+[30-Aug-2020 06:13:26 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/beanepis/public_html/newspaper/storage/framework/views/6ee815a9d9b6263aa6abd7aed6559db9e5a47636.php on line 134
+[30-Aug-2020 06:13:28 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/beanepis/public_html/newspaper/storage/framework/views/6ee815a9d9b6263aa6abd7aed6559db9e5a47636.php on line 134
